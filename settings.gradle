@@ -1,0 +1,14 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = 'restaurantbooker'
+
+include 'restaurant-admin'
+include 'restaurant-common'
+include 'restaurant-customer'
+include 'restaurant-login'
+include 'restaurant-reservation'
+
